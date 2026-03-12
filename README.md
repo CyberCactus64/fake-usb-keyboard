@@ -1,9 +1,4 @@
-# ESP32 USB HID Fake Keyboard
-
-This project uses an ESP32 microcontroller with native USB support to emulate a USB HID keyboard.
-It is designed exclusively as a demonstration tool for corporate security awareness, penetration testing, training sessions, or controlled simulations related to the risks of untrusted USB devices.
-
----
+# USB HID Fake Keyboard
 
 ## Project purpose
 
@@ -53,8 +48,6 @@ This project is compatible **only with ESP32 microcontrollers that provide nativ
 The project supports **multiple keyboard layouts**, configurable in the source code, including:
 - US English
 - Italian
-- French
-- German
 - Additional layouts can be added with minimal changes
 
 The selected layout **must match the operating system keyboard layout** on the host machine to avoid incorrect character mapping.
@@ -64,7 +57,7 @@ The selected layout **must match the operating system keyboard layout** on the h
 ## Software requirements
 
 - Arduino IDE or PlatformIO
-- Esp32
+- One of the specified microcontrollers
 
 ---
 
@@ -72,6 +65,8 @@ The selected layout **must match the operating system keyboard layout** on the h
 
 This project must be used **only in controlled environments** and on systems for which explicit authorization has been granted.
 It is the responsibility of the user to ensure that usage complies with internal company policies, local laws, and applicable regulations.
+
+It is designed exclusively as a demonstration tool for corporate security awareness, penetration testing, or training sessions related to the risks of untrusted USB devices.
 
 This repository is provided **for educational and demonstration purposes only**.
 
